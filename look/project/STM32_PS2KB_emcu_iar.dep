@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3068143931</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\inc&amp;src\hd44780_emcu.c</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\system_stm32f10x.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\STM32_PS2KB_emcu_iar.icf</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_emcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_emcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\PS2KB_emcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\interrupt_emcu.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_ld_vl.o</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\main.c</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\PS2Kb_emcu.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\stm32F10x.h</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\gpio_emcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hd44780_emcu.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PS2KB_emcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_PS2KB_emcu_iar.pbd</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\interrupt_emcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_emcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hd44780_emcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_emcu.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\hd44780_emcu.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\gpio_emcu.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\stm32_discovery_emcu.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\startup_stm32f10x_ld_vl.s</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\system_stm32f10x.c</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\inc&amp;src\PS2KB_emcu.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\hd44780_emcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 15 2 21 35 37 31 19 36 39 38 4 20 30 41 1 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 15 2 21 35 37 31 36 39 38 4 20 30 41 1 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\interrupt_emcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 2 21 35 37 31 19 36 39 38 4 20 30 41 1 26 16 12 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 2 21 35 37 31 36 39 38 4 20 30 41 1 26 16 12 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 2 21 35 37 31 19 36 39 38 4 20 30 41 1 16 32 40 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 2 21 35 37 31 36 39 38 4 20 30 41 1 16 32 40 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 3 7 29 18 6 42 10 17 45 14 33 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\STM32_PS2KB_emcu_iar.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 23 5 28 27 8 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\gpio_emcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 15 2 21 35 37 31 19 36 39 38 4 20 30 41 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 15 2 21 35 37 31 36 39 38 4 20 30 41 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\startup_stm32f10x_ld_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 2 21 35 37 31 19 36 39 38 4 20 30 41 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 2 21 35 37 31 36 39 38 4 20 30 41 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\inc&amp;src\PS2KB_emcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 15 2 21 35 37 31 19 36 39 38 4 20 30 41 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 15 2 21 35 37 31 36 39 38 4 20 30 41 1</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
